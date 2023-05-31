@@ -9,7 +9,7 @@ export default defineConfig({
             input : {
                 main: 'index.html',
                 bootstrap: 'index-bootstrap.html',
-                materialize: 'materialize.html',
+                materialize: 'index.materialize.html',
             }
         },
     },
