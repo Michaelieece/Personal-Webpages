@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import data from './data.json';
 
 export default defineConfig({
-    base : '/Personal-Webpages/',
+    base : '/responsive-webpages/',
     build: {
         rollupOptions: {
             input : {
