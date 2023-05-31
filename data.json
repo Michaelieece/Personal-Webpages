@@ -1,0 +1,40 @@
+{
+    "user" : {
+        "fullName": "Michael Austin Chuba Okika",
+        "photo" : "pic1.jpg"
+    },
+    "city" : {
+        "name" : "Capetown",
+        "photo" : "Cape.jpg",
+        "description" : "Capetown is very cold and lovely"
+    },
+    "foreignLanguage" : {
+        "language" : "Igbo",
+        "phrases" : [{
+            "englishPhrase" : "God",
+            "foreignLanguage" : "Chineke"
+        },
+        {
+            "englishPhrase" : "Chioma is beautiful",
+            "foreignLanguage" : "Chioma amaka"
+        }]
+    },
+    "favouriteSubjects" : {
+        "Discipline": "Electrical Engineering",
+        "subject":[
+        {
+            "name" : "Power Systems",
+            "description" : "Power Systems Analysis"
+        },
+        {
+            "name" : "Thermodynamics",
+            "description" : " Principles of Thermodynamics"
+        },
+        {
+            "name" : "Engineering Mathematics",
+            "description" : " Calculus and Linear Algebra"
+
+        }
+    ]
+}
+}

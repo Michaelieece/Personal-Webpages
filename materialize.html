@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <h1>materialize page</h1>
+    <a href="index-bootstrap.html">bootstrap</a>
+    <div class="container">
+    <div class="row">
+       <div class="col s4 m4 l6">
+        <h2>{{user.fullName}}</h2>
+        </div>
+        <div class="col s4 m4 l6">
+        <img src={{user.photo}}>
+        </div>
+    
+        </div>
+        
+        <br>
+       
+        <div class="row">
+       <div class="col-md">
+        <h2>Which City?{{city.name}}</h2>
+        <img src={{city.photo}}>
+       </div>
+       <div class="col-md">
+        <h2>{{city.description}}</h2>
+       </div>
+ 
+       </div>
+       <div class="col-md">
+        <h2>{{foreignLanguage.language}}</h2>
+        <table class="table table-bordered">
+            <tr>
+                <th>Igbo phrase</th>
+                <th>English phrase</th>
+            </tr>
+            {{#foreignLanguage.phrases}}
+            <tr>
+                <td>{{this.foreignLanguage}}</td>
+                <td>{{this.englishPhrase}}</td>
+
+            </tr>   
+            {{/foreignLanguage.phrases}}     
+        </table>         
+       </div>
+       <div class="col-md">   
+        <h2>{{favouriteSubjects.Discipline}}</h2>          
+        <table class="table table-bordered">
+            <tr>
+                <th>Subject Name</th>
+                <th>Subject Description</th>
+            </tr>        
+        {{#favouriteSubjects.subject}}
+
+            <tr>
+                <td>{{this.name}}</td>
+                <td>{{this.description}}</td>
+
+            </tr>   
+            {{/favouriteSubjects.subject}}     
+       
+        </table>
+       </div>
+    </div>
+</div>
+
+</body>
+</html>
